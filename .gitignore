@@ -1,0 +1,16 @@
+
+claude/
+data/
+
+# Ignore virtual environment
+venv/
+__pycache__/
+
+# Ignore vector store (large binary files)
+vector_store/
+chroma_db/
+*.sqlite3
+
+# Ignore env files
+.env
+*.yaml
